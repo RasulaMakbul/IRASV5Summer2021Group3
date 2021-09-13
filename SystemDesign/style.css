@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.container{
+    max-height: 10%;
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    
+}
+.container img{
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
+    padding-left: 50px;
+} 
+
+.card-body form{
+    position: relative;
+    left: 40%;
+    top: 300px;
+    border: 2px solid;
+    width: 300px;
+    padding: 30px 30px 60px 70px;
+}
+.card-body input {
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.card-body form signin{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    margin: 1px;
+    color:#02BBED;
+    background: border-box;
+    padding: 6px 6px;
+    font-size: 15px;
+    border: none;
+}
+.wrapper{
+    position: absolute;
+    padding-left: 120px;
+    margin-right: 1px;
+    background-color: blanchedalmond;
+}
